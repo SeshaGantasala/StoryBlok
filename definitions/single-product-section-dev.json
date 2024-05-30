@@ -1,0 +1,181 @@
+{
+  "name": "single-product-section",
+  "display_name": "Single Product Section",
+  "created_at": "2024-05-09T15:12:49.751Z",
+  "updated_at": "2024-05-09T15:12:49.751Z",
+  "id": 5774617,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "pos": 0,
+      "translatable": true,
+      "key": "headline"
+    },
+    "override_product_description": {
+      "type": "boolean",
+      "pos": 1
+    },
+    "text": {
+      "type": "richtext",
+      "pos": 2,
+      "customize_toolbar": true,
+      "toolbar": [
+        "bold",
+        "italic",
+        "olist",
+        "list",
+        "link"
+      ],
+      "translatable": true,
+      "key": "text",
+      "conditional_settings": [
+        {
+          "modifications": [
+            {
+              "display": "hide"
+            }
+          ],
+          "rule_match": "all",
+          "rule_conditions": [
+            {
+              "validated_object": {
+                "type": "field",
+                "field_key": "override_product_description",
+                "field_attr": "value"
+              },
+              "validation": "empty",
+              "value": null
+            }
+          ]
+        }
+      ]
+    },
+    "button": {
+      "type": "bloks",
+      "maximum": 1,
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "button"
+      ],
+      "pos": 3,
+      "component_group_whitelist": [],
+      "key": "button"
+    },
+    "product": {
+      "type": "custom",
+      "pos": 4,
+      "filetypes": [
+        "images"
+      ],
+      "translatable": true,
+      "field_type": "sb-shopify",
+      "options": [
+        {
+          "name": "endpoint",
+          "value": "https://demo-store-storyblok.myshopify.com",
+          "_uid": "dff2668a-7133-4f27-8736-7404431a784b"
+        },
+        {
+          "name": "token",
+          "value": "c73797b73dc05529b551e7df36257c24",
+          "_uid": "a83cc3e4-d01f-4450-b105-d567b81116e6"
+        },
+        {
+          "name": "limit",
+          "value": "1",
+          "_uid": "9fac3fa0-62d0-4da1-9d16-7ff25314ff4a"
+        },
+        {
+          "name": "selectOnly",
+          "value": "product",
+          "_uid": "28a84c4e-171c-4215-a322-3150bc75fd35"
+        }
+      ],
+      "key": "image"
+    },
+    "tab-a6b55e6b-48ef-4dfc-89e6-970b82383748": {
+      "display_name": "Text",
+      "keys": [
+        "headline",
+        "text",
+        "button",
+        "override_product_description"
+      ],
+      "pos": 5,
+      "type": "tab",
+      "name": "tab-a6b55e6b-48ef-4dfc-89e6-970b82383748",
+      "key": "tab-a6b55e6b-48ef-4dfc-89e6-970b82383748"
+    },
+    "tab-04deb8e3-8533-461b-ace6-ddef66bf40dd": {
+      "display_name": "Product",
+      "keys": [
+        "image",
+        "product"
+      ],
+      "pos": 6,
+      "type": "tab"
+    },
+    "tab-13ca152d-db6e-4fe4-9621-3fd4e9391a75": {
+      "display_name": "Style",
+      "keys": [
+        "background_color",
+        "reverse_layout"
+      ],
+      "pos": 7,
+      "type": "tab",
+      "name": "tab-13ca152d-db6e-4fe4-9621-3fd4e9391a75",
+      "key": "tab-13ca152d-db6e-4fe4-9621-3fd4e9391a75"
+    },
+    "reverse_layout": {
+      "type": "boolean",
+      "pos": 8,
+      "default_value": false,
+      "translatable": true,
+      "key": "reverse_layout"
+    },
+    "background_color": {
+      "type": "option",
+      "source": "internal",
+      "datasource_slug": "background-colors",
+      "exclude_empty_option": true,
+      "default_value": "white",
+      "pos": 9,
+      "key": "background_color"
+    }
+  },
+  "image": "//a.storyblok.com/f/172000/x/fb5b1759f3/image-text-section-preview.png",
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": "<div>{{it.headline}}</div>\n{{@image(it.product.items[0].image)/}} ",
+  "is_nestable": true,
+  "all_presets": [
+    {
+      "id": 2159465,
+      "name": "Astronaut Space Suit Replica",
+      "component_id": 5774617,
+      "image": "",
+      "icon": null,
+      "color": null,
+      "description": null
+    },
+    {
+      "id": 2159466,
+      "name": "Space Shuttle Replica",
+      "component_id": 5774617,
+      "image": "",
+      "icon": null,
+      "color": null,
+      "description": null
+    }
+  ],
+  "preset_id": null,
+  "real_name": "Single Product Section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}

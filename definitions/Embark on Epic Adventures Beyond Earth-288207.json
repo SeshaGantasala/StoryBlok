@@ -1,0 +1,397 @@
+{
+  "id": 2159463,
+  "name": "Embark on Epic Adventures Beyond Earth",
+  "preset": {
+    "_uid": "e8ea6eea-6f8b-4de7-875c-cc81204829ea",
+    "cols": "3",
+    "lead": "Experience the Future of Space Tourism with Unforgettable Journeys to the International Space Station, Lunar Expeditions, and Mars Missions.",
+    "cards": [
+      {
+        "_uid": "837fb1fd-035b-4e6a-8553-fbb2956268b5",
+        "price": "9000.90",
+        "button": [
+          {
+            "_uid": "8c540cf7-209a-4732-b0c8-26e4f6f11497",
+            "link": {
+              "id": "",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": ""
+            },
+            "size": "medium",
+            "label": "Contact sales",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "primary"
+          }
+        ],
+        "headline": "ISS",
+        "component": "price-card",
+        "subheadline": "Experience life aboard the ISS",
+        "most_popular": false,
+        "text_below_price": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "all inclusive",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "text_below_button": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "1-2 days travel time",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "textStyle",
+                              "attrs": {
+                                "color": "rgb(55, 65, 81)"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "7-day stay at the International Space Station",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Zero gravity experience",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "See Earth from space",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Spacewalk opportunity ",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_uid": "5fe11d2f-a272-4adf-802a-719d0fe43383",
+        "price": "49000.90",
+        "button": [
+          {
+            "_uid": "1f58479a-893b-47f1-883d-1d55b61ab923",
+            "link": {
+              "id": "",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": ""
+            },
+            "size": "medium",
+            "label": "Contact sales",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "secondary"
+          }
+        ],
+        "headline": "Moon",
+        "component": "price-card",
+        "subheadline": "Land on the Lunar surface",
+        "most_popular": true,
+        "text_below_price": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "all inclusive",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": "rgb(55, 65, 81)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "text_below_button": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "3 days travel time",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Zero gravity experience",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "See Earth from the Moon",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Lunar exploration opportunity",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_uid": "141e318f-6558-478e-8c61-727693e4361e",
+        "price": "99000.90",
+        "button": [
+          {
+            "_uid": "c45d6341-a7f9-48a5-b9e1-e4ab7616357b",
+            "link": {
+              "id": "",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": ""
+            },
+            "size": "medium",
+            "label": "Contact sales",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "primary"
+          }
+        ],
+        "headline": "Mars",
+        "component": "price-card",
+        "subheadline": "Set foot on the Red Planet",
+        "most_popular": false,
+        "text_below_price": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "per month.",
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "textStyle",
+                      "attrs": {
+                        "color": "rgb(91, 98, 120)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "text_below_button": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "bullet_list",
+              "content": [
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "6-9 months travel time (one-way)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Zero gravity experience",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Martian Surface Visit",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "textStyle",
+                              "attrs": {
+                                "color": "rgb(55, 65, 81)"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "text": "Travel with one of the most innovative spaceships",
+                          "type": "text",
+                          "marks": [
+                            {
+                              "type": "textStyle",
+                              "attrs": {
+                                "color": null
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "headline": "Embark on Epic Adventures Beyond Earth",
+    "component": "grid-section",
+    "background_color": "white"
+  },
+  "component_id": 5774613,
+  "space_id": 288207,
+  "created_at": "2024-05-09T15:12:49.680Z",
+  "updated_at": "2024-05-09T15:12:49.680Z",
+  "image": "",
+  "color": "",
+  "icon": "",
+  "description": ""
+}

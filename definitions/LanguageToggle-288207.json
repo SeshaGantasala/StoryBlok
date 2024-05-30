@@ -1,0 +1,42 @@
+{
+  "name": "LanguageToggle",
+  "display_name": null,
+  "created_at": "2024-05-14T15:47:45.521Z",
+  "updated_at": "2024-05-14T15:53:45.604Z",
+  "id": 5793391,
+  "schema": {
+    "Option1": {
+      "type": "text",
+      "pos": 0
+    },
+    "language": {
+      "type": "boolean",
+      "inline_label": false,
+      "default_value": true,
+      "conditional_settings": [],
+      "display_name": "Language",
+      "translatable": true,
+      "key": "lan",
+      "pos": 1
+    },
+    "Option2": {
+      "type": "text",
+      "pos": 2
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "LanguageToggle",
+  "component_group_uuid": "51b564cb-4566-4ca9-8632-c4a298c86262",
+  "color": null,
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "Course"
+}

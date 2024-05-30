@@ -1,0 +1,55 @@
+{
+  "name": "rocket-customization-page",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.150Z",
+  "updated_at": "2024-05-09T15:12:50.150Z",
+  "id": 5774629,
+  "schema": {
+    "headline": {
+      "type": "text"
+    },
+    "description": {
+      "type": "textarea"
+    },
+    "tab-8c94c67d-c5db-4955-bb1d-5c98fde8bf42": {
+      "display_name": "Materials",
+      "keys": [
+        "baseMaterial",
+        "accentMaterial",
+        "detailMaterial"
+      ],
+      "pos": 0,
+      "type": "tab"
+    },
+    "baseMaterial": {
+      "type": "custom",
+      "field_type": "sb-tres-material-plugin",
+      "options": []
+    },
+    "accentMaterial": {
+      "type": "custom",
+      "field_type": "sb-tres-material-plugin",
+      "options": []
+    },
+    "detailMaterial": {
+      "type": "custom",
+      "field_type": "sb-tres-material-plugin",
+      "options": []
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "rocket-customization-page",
+  "component_group_uuid": "6d6f7735-85cc-42b2-83ef-a302aaa69066",
+  "color": "#1b243f",
+  "icon": "block-resize-fc",
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "3d"
+}

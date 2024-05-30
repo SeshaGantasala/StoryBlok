@@ -1,0 +1,36 @@
+{
+  "name": "author",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.389Z",
+  "updated_at": "2024-05-09T15:12:50.389Z",
+  "id": 5774638,
+  "schema": {
+    "profile_picture": {
+      "type": "asset",
+      "filetypes": [
+        "images"
+      ],
+      "asset_folder_id": null,
+      "key": "profile",
+      "pos": 0
+    },
+    "description": {
+      "type": "textarea",
+      "translatable": true
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "author",
+  "component_group_uuid": null,
+  "color": "#1b243f",
+  "icon": "block-@",
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null
+}

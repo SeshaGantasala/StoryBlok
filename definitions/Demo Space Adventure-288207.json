@@ -1,0 +1,73 @@
+{
+  "id": 2159462,
+  "name": "Demo Space Adventure",
+  "preset": {
+    "_uid": "90cf7560-73ab-4024-9526-e3d86daf9e5e",
+    "buttons": [
+      {
+        "_uid": "3127b611-7ff5-4774-b3a7-9a947bb1937e",
+        "link": {
+          "id": "1431945b-144d-429d-aee1-4ecc8f47ed1a",
+          "url": "",
+          "linktype": "story",
+          "fieldtype": "multilink",
+          "cached_url": "articles/"
+        },
+        "size": "large",
+        "label": "Learn More",
+        "style": "semi",
+        "component": "button",
+        "text_color": "dark",
+        "border_radius": "default",
+        "background_color": "white"
+      }
+    ],
+    "headline": "Demo Space Adventure",
+    "component": "hero-section",
+    "text_color": "light",
+    "full_height": false,
+    "subheadline": "At a rate of 73 kilometers per second per megaparsec",
+    "background_image": {
+      "id": 5674587,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "filename": "https://a.storyblok.com/f/172000/2560x1946/7ddce44d28/earth.jpg",
+      "copyright": "",
+      "fieldtype": "asset",
+      "is_external_url": false
+    },
+    "background_video": {
+      "id": 5674589,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "filename": "https://a.storyblok.com/f/172000/x/1901ea4866/earth.mp4",
+      "copyright": "",
+      "fieldtype": "asset",
+      "is_external_url": false
+    },
+    "vertical_alignment": "center",
+    "horizontal_alignment": "center",
+    "background_image__i18n__fr": {
+      "id": 5197327,
+      "alt": "",
+      "name": "",
+      "focus": "",
+      "title": "",
+      "filename": "https://a.storyblok.com/f/163682/1920x1080/e722320487/pexels-spacex-23769-1.jpg",
+      "copyright": "",
+      "fieldtype": "asset"
+    }
+  },
+  "component_id": 5774612,
+  "space_id": 288207,
+  "created_at": "2024-05-09T15:12:49.654Z",
+  "updated_at": "2024-05-09T15:12:49.654Z",
+  "image": "",
+  "color": "",
+  "icon": "",
+  "description": ""
+}

@@ -1,0 +1,97 @@
+{
+  "name": "featured-articles-section",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:49.711Z",
+  "updated_at": "2024-05-09T15:12:49.711Z",
+  "id": 5774614,
+  "schema": {
+    "cols": {
+      "type": "option",
+      "display_name": "Columns",
+      "description": "The maximum amount of columns that should be shown in wide viewports.",
+      "options": [
+        {
+          "name": "Two",
+          "value": "2"
+        },
+        {
+          "value": "3",
+          "name": "Three"
+        },
+        {
+          "value": "4",
+          "name": "Four"
+        }
+      ],
+      "exclude_empty_option": true,
+      "default_value": "3",
+      "key": "cols",
+      "pos": 0
+    },
+    "background_color": {
+      "type": "option",
+      "source": "internal",
+      "datasource_slug": "background-colors",
+      "default_value": "white",
+      "exclude_empty_option": true,
+      "key": "background_color",
+      "pos": 1
+    },
+    "headline": {
+      "type": "text",
+      "display_name": "Headline",
+      "key": "headline",
+      "pos": 2,
+      "translatable": true
+    },
+    "lead": {
+      "type": "textarea",
+      "key": "lead",
+      "pos": 3,
+      "translatable": true
+    },
+    "articles": {
+      "type": "options",
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "grid-card"
+      ],
+      "source": "internal_stories",
+      "folder_slug": "articles/",
+      "filter_content_type": "article-page",
+      "min_options": "2",
+      "max_options": "6",
+      "display_name": "Articles",
+      "key": "cards",
+      "pos": 4,
+      "is_reference_type": true,
+      "entry_appearance": "card",
+      "allow_advanced_search": true
+    },
+    "tab-26911bf7-af2a-43c2-baee-632b6313c8af": {
+      "display_name": "Style",
+      "keys": [
+        "cols",
+        "background_color"
+      ],
+      "pos": 5,
+      "type": "tab"
+    }
+  },
+  "image": "//a.storyblok.com/f/172000/x/889a31b823/feature-article-section-preview.png",
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": "<div>{{it.headline}}</div>\n<div>With <strong>{{it.articles.length}}</strong> articles</div>",
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "featured-articles-section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}

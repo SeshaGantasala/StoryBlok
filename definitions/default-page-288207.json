@@ -1,0 +1,31 @@
+{
+  "name": "default-page",
+  "display_name": "Default Page",
+  "created_at": "2024-05-09T15:12:50.310Z",
+  "updated_at": "2024-05-09T15:12:50.310Z",
+  "id": 5774636,
+  "schema": {
+    "body": {
+      "type": "bloks",
+      "restrict_type": "groups",
+      "restrict_components": true,
+      "component_group_whitelist": [
+        "25bd5845-06f6-4a5f-bb46-4682b1f00f22"
+      ]
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "Default Page",
+  "component_group_uuid": null,
+  "color": "#1b243f",
+  "icon": "block-block",
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null
+}

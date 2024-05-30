@@ -1,0 +1,141 @@
+{
+  "name": "image-text-section",
+  "display_name": "Image Text Section",
+  "created_at": "2024-05-09T15:12:49.791Z",
+  "updated_at": "2024-05-09T15:12:49.791Z",
+  "id": 5774618,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "pos": 0,
+      "translatable": true
+    },
+    "image_layout": {
+      "type": "option",
+      "options": [
+        {
+          "name": "Proportional",
+          "value": "proportional"
+        },
+        {
+          "value": "fixed-height",
+          "name": "Fixed Height"
+        }
+      ],
+      "exclude_empty_option": true,
+      "default_value": "proportional",
+      "translatable": true
+    },
+    "text": {
+      "type": "richtext",
+      "pos": 1,
+      "customize_toolbar": true,
+      "toolbar": [
+        "bold",
+        "italic",
+        "olist",
+        "list",
+        "link"
+      ],
+      "translatable": true
+    },
+    "button": {
+      "type": "bloks",
+      "maximum": 1,
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "button"
+      ],
+      "pos": 2,
+      "component_group_whitelist": []
+    },
+    "image": {
+      "type": "asset",
+      "pos": 3,
+      "filetypes": [
+        "images"
+      ],
+      "translatable": true
+    },
+    "tab-a6b55e6b-48ef-4dfc-89e6-970b82383748": {
+      "display_name": "Text",
+      "keys": [
+        "headline",
+        "text",
+        "button"
+      ],
+      "pos": 4,
+      "type": "tab",
+      "name": "tab-a6b55e6b-48ef-4dfc-89e6-970b82383748"
+    },
+    "tab-04deb8e3-8533-461b-ace6-ddef66bf40dd": {
+      "display_name": "Image",
+      "keys": [
+        "image",
+        "image_layout"
+      ],
+      "pos": 5,
+      "type": "tab",
+      "name": "tab-04deb8e3-8533-461b-ace6-ddef66bf40dd"
+    },
+    "tab-13ca152d-db6e-4fe4-9621-3fd4e9391a75": {
+      "display_name": "Style",
+      "keys": [
+        "background_color",
+        "reverse_layout"
+      ],
+      "pos": 6,
+      "type": "tab",
+      "name": "tab-13ca152d-db6e-4fe4-9621-3fd4e9391a75"
+    },
+    "reverse_layout": {
+      "type": "boolean",
+      "pos": 7,
+      "default_value": false,
+      "translatable": true
+    },
+    "background_color": {
+      "type": "option",
+      "source": "internal",
+      "datasource_slug": "background-colors",
+      "exclude_empty_option": true,
+      "default_value": "white",
+      "pos": 8
+    }
+  },
+  "image": "//a.storyblok.com/f/172000/x/fb5b1759f3/image-text-section-preview.png",
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": "<div>{{it.headline}}</div>\n{{@image(it.image.filename)/}} ",
+  "is_nestable": true,
+  "all_presets": [
+    {
+      "id": 2159467,
+      "name": "What do astronauts do for fun?",
+      "component_id": 5774618,
+      "image": "",
+      "icon": "",
+      "color": "",
+      "description": ""
+    },
+    {
+      "id": 2159468,
+      "name": "What's in space now?",
+      "component_id": 5774618,
+      "image": "",
+      "icon": "",
+      "color": "",
+      "description": ""
+    }
+  ],
+  "preset_id": null,
+  "real_name": "Image Text Section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}

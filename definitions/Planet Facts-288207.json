@@ -1,0 +1,128 @@
+{
+  "id": 2159461,
+  "name": "Planet Facts",
+  "preset": {
+    "_uid": "8a824a2a-43b5-45d7-aa70-b7fd3be02941",
+    "lead": "Read more about Mars, Venus, and Jupiter.",
+    "entries": [
+      {
+        "_uid": "48742376-8326-4e89-b282-fb350f9d5fd0",
+        "image": {
+          "id": 7544550,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "filename": "https://a.storyblok.com/f/192354/3500x2000/c1eaf13a48/mars.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "is_external_url": false
+        },
+        "button": [
+          {
+            "_uid": "7dfd4cf3-0e00-485a-998c-48842d2d195b",
+            "link": {
+              "id": "48b2fd50-5610-4842-b304-e1617391bd28",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": "categories/mars-exploration"
+            },
+            "size": "medium",
+            "label": "Read the article",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "primary"
+          }
+        ],
+        "headline": "Mars",
+        "component": "tabbed-content-entry",
+        "description": "Mars has become a favorite subject of experts and enthusiasts everywhere. It's not hard to see why – the dense rock formations, captured asteroids, and stunning color all make for a breathtakingly different world. However, a few key facts show us that Mars isn't actually that different from our own."
+      },
+      {
+        "_uid": "30450690-2d2d-46e6-b31f-8cf97d0b574e",
+        "image": {
+          "id": 7544551,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "filename": "https://a.storyblok.com/f/192354/3500x2000/fb337a2b19/venus.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "is_external_url": false
+        },
+        "button": [
+          {
+            "_uid": "4c4ffbdf-8573-41c7-bb43-3b7d878708e0",
+            "link": {
+              "id": "3b6202f6-f475-4ad3-be43-90f2ff096483",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": "articles/can-anything-survive-on-venus"
+            },
+            "size": "medium",
+            "label": "Read the article",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "primary"
+          }
+        ],
+        "headline": "Venus",
+        "component": "tabbed-content-entry",
+        "description": "In astrology, Venus is thought to represent love. However, the sheer difficulty of surviving on Venus means that it might be more accurate to say it represents tough love.\nIt's a well-known fact that humans wouldn't exactly thrive on the other planets in our solar system. However, Venus is one of the tougher options."
+      },
+      {
+        "_uid": "b3bfc0ff-3eb7-4426-8fb9-2d20dbcc6d4a",
+        "image": {
+          "id": 7544552,
+          "alt": "",
+          "name": "",
+          "focus": "",
+          "title": "",
+          "filename": "https://a.storyblok.com/f/192354/3500x2000/153cc75d3c/jupiter.jpg",
+          "copyright": "",
+          "fieldtype": "asset",
+          "is_external_url": false
+        },
+        "button": [
+          {
+            "_uid": "c434dde6-63dd-47b0-9008-89433bb09ec7",
+            "link": {
+              "id": "5de53282-b18e-4f15-8f3d-3b053dfc5ecf",
+              "url": "",
+              "linktype": "story",
+              "fieldtype": "multilink",
+              "cached_url": "articles/jupiter-larger-than-life"
+            },
+            "size": "medium",
+            "label": "Read the article",
+            "style": "default",
+            "component": "button",
+            "text_color": "light",
+            "border_radius": "default",
+            "background_color": "primary"
+          }
+        ],
+        "headline": "Jupiter",
+        "component": "tabbed-content-entry",
+        "description": "Jupiter is a gas giant unlike any other. Its giant size, multiple moons, and high speeds set it apart as a truly incredible planet.\nJupiter's size is undeniably impressive. However, it isn't just confined to the planet itself. It also puts things into perspective elsewhere: for as large as Jupiter is, you could easily fit it in between Earth and our Moon! Aren't cosmic distances wild?"
+      }
+    ],
+    "headline": "Planet Facts",
+    "component": "tabbed-content-section"
+  },
+  "component_id": 5774610,
+  "space_id": 288207,
+  "created_at": "2024-05-09T15:12:49.598Z",
+  "updated_at": "2024-05-09T15:12:49.598Z",
+  "image": "",
+  "color": "",
+  "icon": "",
+  "description": ""
+}

@@ -1,0 +1,74 @@
+{
+  "id": 2159465,
+  "name": "Astronaut Space Suit Replica",
+  "preset": {
+    "_uid": "203d108f-82e7-4ba1-ab93-cc246f8a0deb",
+    "text": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Embark on a cosmic journey with our meticulously crafted Astronaut Edition Space Suit Replica. This stunning replica faithfully captures the details of authentic astronaut attire, from the reflective helmet visor to the functional life support backpack. Perfect for space enthusiasts and collectors, it's a tangible piece of the awe-inspiring world of space exploration.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "rgb(15, 15, 15)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "button": [
+      {
+        "_uid": "4a2c8354-43c0-4a42-bce2-dedcffdc00fc",
+        "link": {
+          "id": "",
+          "url": "",
+          "linktype": "story",
+          "fieldtype": "multilink",
+          "cached_url": ""
+        },
+        "size": "medium",
+        "label": "Buy now",
+        "style": "default",
+        "component": "button",
+        "text_color": "light",
+        "border_radius": "default",
+        "background_color": "primary"
+      }
+    ],
+    "product": {
+      "items": [
+        {
+          "id": "gid://shopify/Product/7788021645465",
+          "sku": "space-suit",
+          "name": "Cosmic Explorer Series: Astronaut Edition Space Suit Replica",
+          "type": "product",
+          "image": "https://cdn.shopify.com/s/files/1/0501/4120/0537/files/pexels-pixabay-2156_x140.jpg?v=1700731710",
+          "variants": false,
+          "description": "Dive into the thrilling world of space exploration with our meticulously crafted Cosmic Explorer Series: Astronaut Edition Space Suit Replica. This stunning replica captures the intricate details of authentic astronaut attire, making it the perfect addition to any space enthusiast's collection or an exceptional gift for those who dream of reaching for the stars. Constructed with precision and attention to detail, our space suit replica features high-quality materials and finishes, replicating the iconic look of space suits worn by astronauts on their daring missions. From the reflective helmet visor to the functional life support backpack, every element is faithfully recreated to provide an immersive and realistic experience. Whether you're a space enthusiast, a collector of unique memorabilia, or someone with a passion for the wonders beyond our atmosphere, the Cosmic Explorer Series: Astronaut Edition Space Suit Replica is sure to inspire awe and ignite the spirit of exploration. Strive for the stars and bring the marvels of space exploration into your own space with this extraordinary and authentic replica."
+        }
+      ],
+      "plugin": "sb-shopify"
+    },
+    "headline": "Astronaut Space Suit Replica",
+    "component": "single-product-section",
+    "reverse_layout": false,
+    "background_color": "white"
+  },
+  "component_id": 5774617,
+  "space_id": 288207,
+  "created_at": "2024-05-09T15:12:49.767Z",
+  "updated_at": "2024-05-09T15:12:49.767Z",
+  "image": "",
+  "color": null,
+  "icon": null,
+  "description": null
+}

@@ -1,0 +1,33 @@
+{
+  "name": "rocket-journey-page",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.136Z",
+  "updated_at": "2024-05-09T15:12:50.136Z",
+  "id": 5774628,
+  "schema": {
+    "sections": {
+      "type": "bloks",
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "scroll-section",
+        "rocket-journey-scroll-section"
+      ]
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "rocket-journey-page",
+  "component_group_uuid": "6d6f7735-85cc-42b2-83ef-a302aaa69066",
+  "color": "#1b243f",
+  "icon": "block-resize-fc",
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "3d"
+}

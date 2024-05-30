@@ -1,0 +1,97 @@
+{
+  "name": "article-page",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.243Z",
+  "updated_at": "2024-05-09T15:12:50.243Z",
+  "id": 5774632,
+  "schema": {
+    "image": {
+      "type": "asset",
+      "pos": 0,
+      "filetypes": [
+        "images"
+      ],
+      "key": "Image",
+      "translatable": true
+    },
+    "headline": {
+      "type": "text",
+      "pos": 1,
+      "key": "headline",
+      "translatable": true,
+      "max_length": 70
+    },
+    "subheadline": {
+      "type": "text",
+      "pos": 2,
+      "key": "subheadline",
+      "translatable": true
+    },
+    "teaser": {
+      "type": "textarea",
+      "pos": 3,
+      "key": "teaser",
+      "translatable": true
+    },
+    "text": {
+      "type": "richtext",
+      "customize_toolbar": true,
+      "toolbar": [
+        "bold",
+        "italic",
+        "h2",
+        "h3",
+        "h4",
+        "paragraph",
+        "list",
+        "olist",
+        "quote",
+        "link",
+        "blok"
+      ],
+      "pos": 4,
+      "key": "text",
+      "translatable": true,
+      "restrict_type": "groups",
+      "restrict_components": true,
+      "component_group_whitelist": [
+        "d6506cb4-83a6-4cfb-9054-2cf161a2aaf3"
+      ]
+    },
+    "author": {
+      "type": "option",
+      "source": "internal_stories",
+      "folder_slug": "authors/",
+      "filter_content_type": "author",
+      "use_uuid": true,
+      "pos": 5,
+      "key": "author"
+    },
+    "categories": {
+      "type": "options",
+      "source": "internal_stories",
+      "folder_slug": "categories/",
+      "filter_content_type": "category",
+      "use_uuid": true,
+      "pos": 6,
+      "key": "categories",
+      "is_reference_type": true,
+      "entry_appearance": "card",
+      "allow_advanced_search": true
+    }
+  },
+  "image": null,
+  "preview_field": "headline",
+  "is_root": true,
+  "preview_tmpl": null,
+  "is_nestable": false,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "article-page",
+  "component_group_uuid": null,
+  "color": "#1b243f",
+  "icon": "block-text-img-l",
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": "image"
+}

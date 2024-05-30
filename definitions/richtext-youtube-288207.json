@@ -1,0 +1,31 @@
+{
+  "name": "richtext-youtube",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.078Z",
+  "updated_at": "2024-05-09T15:12:50.078Z",
+  "id": 5774626,
+  "schema": {
+    "video_id": {
+      "type": "text",
+      "regex": "",
+      "description": "",
+      "key": "video_url",
+      "pos": 0
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "richtext-youtube",
+  "component_group_uuid": "d6506cb4-83a6-4cfb-9054-2cf161a2aaf3",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "richtext"
+}

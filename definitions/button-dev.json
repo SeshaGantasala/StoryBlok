@@ -1,0 +1,142 @@
+{
+  "name": "button",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.017Z",
+  "updated_at": "2024-05-09T15:12:50.017Z",
+  "id": 5774624,
+  "schema": {
+    "style": {
+      "type": "option",
+      "pos": 0,
+      "use_uuid": true,
+      "exclude_empty_option": true,
+      "options": [
+        {
+          "name": "Default",
+          "value": "default"
+        },
+        {
+          "value": "ghost",
+          "name": "Ghost"
+        },
+        {
+          "value": "semi",
+          "name": "Semi-transparent"
+        }
+      ],
+      "default_value": "default"
+    },
+    "background_color": {
+      "type": "option",
+      "source": "internal",
+      "datasource_slug": "colors",
+      "default_value": "primary",
+      "pos": 1,
+      "key": "background_color",
+      "exclude_empty_option": true
+    },
+    "text_color": {
+      "type": "option",
+      "pos": 2,
+      "use_uuid": true,
+      "options": [
+        {
+          "_uid": "215a907c-af18-4b06-b1f7-303d97d5a6dd",
+          "name": "Light",
+          "value": "light"
+        },
+        {
+          "_uid": "d6ac5742-eccf-41ee-9fdd-04b9506b0cb3",
+          "value": "dark",
+          "name": "Dark"
+        }
+      ],
+      "exclude_empty_option": true,
+      "default_value": "light",
+      "description": "Only applies if styles default or ghost are selected."
+    },
+    "size": {
+      "type": "option",
+      "options": [
+        {
+          "name": "Small",
+          "value": "small"
+        },
+        {
+          "value": "medium",
+          "name": "Medium"
+        },
+        {
+          "value": "large",
+          "name": "Large"
+        }
+      ],
+      "default_value": "medium",
+      "pos": 3,
+      "key": "size",
+      "exclude_empty_option": true
+    },
+    "link": {
+      "type": "multilink",
+      "pos": 4,
+      "restrict_content_types": false,
+      "component_whitelist": [],
+      "key": "link"
+    },
+    "label": {
+      "type": "text",
+      "pos": 5,
+      "key": "label",
+      "default_value": "Button label",
+      "translatable": true
+    },
+    "tab-c759859c-01ed-4426-b4ab-8992abfeca86": {
+      "display_name": "Style",
+      "keys": [
+        "button_color",
+        "size",
+        "style",
+        "background_color",
+        "text_color",
+        "border_radius"
+      ],
+      "pos": 6,
+      "type": "tab"
+    },
+    "border_radius": {
+      "type": "option",
+      "description": "Only applies if rounded corners are enabled in the global site configuration.",
+      "field_type": "storyblok-slider",
+      "options": [
+        {
+          "_uid": "096138d9-4664-4b4c-a147-9b1ffcaf4f81",
+          "name": "Default",
+          "value": "default"
+        },
+        {
+          "_uid": "8500ff30-10e2-44c6-b11d-97caa3d36886",
+          "value": "small",
+          "name": "Small"
+        }
+      ],
+      "use_uuid": true,
+      "exclude_empty_option": true,
+      "default_value": "default"
+    }
+  },
+  "image": null,
+  "preview_field": "label",
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "button",
+  "component_group_uuid": "1be9ae66-afc2-4c29-a165-5699c15094a1",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-2"
+}

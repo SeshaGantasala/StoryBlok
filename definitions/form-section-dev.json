@@ -1,0 +1,112 @@
+{
+  "name": "form-section",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:49.888Z",
+  "updated_at": "2024-05-09T15:12:49.888Z",
+  "id": 5774620,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "translatable": true,
+      "pos": 0
+    },
+    "lead": {
+      "type": "textarea",
+      "translatable": true,
+      "pos": 1
+    },
+    "form": {
+      "type": "option",
+      "options": [
+        {
+          "name": "Contact",
+          "value": "contact"
+        },
+        {
+          "value": "newsletter",
+          "name": "Newsletter"
+        }
+      ],
+      "default_value": "contact",
+      "exclude_empty_option": true,
+      "pos": 2
+    },
+    "tab-1cb1ba6a-87d2-4063-90d4-cfbd80ab4f1a": {
+      "display_name": "Text",
+      "keys": [
+        "headline",
+        "lead",
+        "button"
+      ],
+      "pos": 3,
+      "type": "tab"
+    },
+    "tab-71c4aae7-804f-49d5-b38d-8462c196d3fb": {
+      "display_name": "Form",
+      "keys": [
+        "form"
+      ],
+      "pos": 4,
+      "type": "tab"
+    },
+    "tab-b940776f-9860-4544-8ff6-40b93f7bd43c": {
+      "display_name": "Style",
+      "keys": [
+        "text_color",
+        "background_color"
+      ],
+      "pos": 5,
+      "type": "tab"
+    },
+    "text_color": {
+      "type": "option",
+      "use_uuid": true,
+      "options": [
+        {
+          "_uid": "9936bef2-cded-45bb-b5ae-1033c262d0ac",
+          "name": "Light",
+          "value": "light"
+        },
+        {
+          "_uid": "36dbf78d-fec5-4c59-aeb1-4b3e2b3c7cf8",
+          "value": "dark",
+          "name": "Dark"
+        }
+      ],
+      "exclude_empty_option": true,
+      "default_value": "light"
+    },
+    "background_color": {
+      "type": "option",
+      "use_uuid": true,
+      "source": "internal",
+      "datasource_slug": "colors",
+      "exclude_empty_option": true,
+      "default_value": "dark"
+    },
+    "button": {
+      "type": "bloks",
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "button"
+      ],
+      "maximum": 1
+    }
+  },
+  "image": "//a.storyblok.com/f/172000/x/a3cc7dcd9f/form-section-preview.png",
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "form-section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}

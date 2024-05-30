@@ -1,0 +1,40 @@
+{
+  "name": "nav-item",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.256Z",
+  "updated_at": "2024-05-09T15:12:50.256Z",
+  "id": 5774633,
+  "schema": {
+    "link": {
+      "type": "multilink",
+      "restrict_content_types": true,
+      "component_whitelist": [
+        "default-page",
+        "article-overview-page",
+        "article-page",
+        "category"
+      ],
+      "pos": 0
+    },
+    "label": {
+      "type": "text",
+      "pos": 1,
+      "translatable": true,
+      "max_length": 18
+    }
+  },
+  "image": null,
+  "preview_field": "label",
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "nav-item",
+  "component_group_uuid": null,
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null
+}

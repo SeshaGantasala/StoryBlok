@@ -1,0 +1,35 @@
+{
+  "name": "rocket-journey-scroll-section",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.125Z",
+  "updated_at": "2024-05-09T15:12:50.125Z",
+  "id": 5774627,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "key": "headline",
+      "pos": 0
+    },
+    "text": {
+      "type": "richtext",
+      "display_name": "Text",
+      "key": "content",
+      "pos": 1
+    }
+  },
+  "image": null,
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "rocket-journey-scroll-section",
+  "component_group_uuid": "6d6f7735-85cc-42b2-83ef-a302aaa69066",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "3d"
+}
