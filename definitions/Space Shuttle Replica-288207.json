@@ -1,0 +1,76 @@
+{
+  "id": 2159466,
+  "name": "Space Shuttle Replica",
+  "preset": {
+    "_uid": "c973411d-f1c1-4e1a-89c6-0d3531b37d16",
+    "text": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Embark on a cosmic journey with our meticulously crafted Astronaut Edition Space Suit Replica. This stunning replica faithfully captures the details of authentic astronaut attire, from the reflective helmet visor to the functional life support backpack. Perfect for space enthusiasts and collectors, it's a tangible piece of the awe-inspiring world of space exploration.",
+              "type": "text",
+              "marks": [
+                {
+                  "type": "textStyle",
+                  "attrs": {
+                    "color": "rgb(15, 15, 15)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "button": [
+      {
+        "_uid": "be9aa415-3f6d-4c12-aaea-3a8171e8bc2f",
+        "link": {
+          "id": "",
+          "url": "",
+          "linktype": "story",
+          "fieldtype": "multilink",
+          "cached_url": ""
+        },
+        "size": "medium",
+        "label": "Buy now",
+        "style": "default",
+        "component": "button",
+        "text_color": "light",
+        "border_radius": "default",
+        "background_color": "primary"
+      }
+    ],
+    "product": {
+      "items": [
+        {
+          "id": "gid://shopify/Product/7894105030809",
+          "sku": "space-shuttle",
+          "name": "Orbital Elegance: Replica Space Shuttle Desk Model",
+          "type": "product",
+          "image": "https://cdn.shopify.com/s/files/1/0501/4120/0537/files/jean-philippe-delberghe-YwSf1o8s79c-unsplash_x140.jpg?v=1709627741",
+          "handle": "orbital-elegance-replica-space-shuttle-desk-model",
+          "variants": false,
+          "description": "Bring the wonders of space exploration into your workspace with our meticulously crafted replica Space Shuttle desk model. This stunning piece captures the intricate details of the iconic spacecraft, from its sleek design to the authentic NASA insignia. Crafted with precision and a keen attention to accuracy, the Orbital Elegance desk model serves as a symbolic reminder of human achievement in space. The miniature shuttle is mounted on a polished base, providing a touch of sophistication to your desk or office space. Elevate your surroundings and inspire a sense of wonder with this extraordinary tribute to space exploration."
+        }
+      ],
+      "plugin": "sb-shopify"
+    },
+    "headline": "Astronaut Space Suit Replica",
+    "component": "single-product-section",
+    "reverse_layout": true,
+    "background_color": "white",
+    "override_product_description": false
+  },
+  "component_id": 5774617,
+  "space_id": 288207,
+  "created_at": "2024-05-09T15:12:49.779Z",
+  "updated_at": "2024-05-09T15:12:49.779Z",
+  "image": "",
+  "color": null,
+  "icon": null,
+  "description": null
+}

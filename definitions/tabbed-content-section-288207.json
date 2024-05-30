@@ -1,0 +1,65 @@
+{
+  "name": "tabbed-content-section",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:49.582Z",
+  "updated_at": "2024-05-09T15:12:49.582Z",
+  "id": 5774610,
+  "schema": {
+    "headline": {
+      "type": "text",
+      "pos": 0
+    },
+    "tab-26c515ae-2eec-4268-a782-05a9d1d2ad9e": {
+      "display_name": "Style",
+      "keys": [
+        "always_accordion"
+      ],
+      "pos": 0,
+      "type": "tab"
+    },
+    "always_accordion": {
+      "type": "boolean",
+      "display_name": "Always display as accordion",
+      "inline_label": false
+    },
+    "lead": {
+      "type": "textarea",
+      "pos": 1
+    },
+    "entries": {
+      "type": "bloks",
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "tabbed-content-entry"
+      ],
+      "maximum": 5,
+      "pos": 2
+    }
+  },
+  "image": "//a.storyblok.com/f/192354/x/e273a59aa8/tabs-preview.png",
+  "preview_field": null,
+  "is_root": false,
+  "preview_tmpl": "<div>{{it.headline}}</div>\n<div>With <strong>{{it.entries.length}}</strong> entries</div>",
+  "is_nestable": true,
+  "all_presets": [
+    {
+      "id": 2159461,
+      "name": "Planet Facts",
+      "component_id": 5774610,
+      "image": "",
+      "icon": "",
+      "color": "",
+      "description": ""
+    }
+  ],
+  "preset_id": null,
+  "real_name": "tabbed-content-section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}

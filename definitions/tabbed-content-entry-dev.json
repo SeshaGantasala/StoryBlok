@@ -1,0 +1,53 @@
+{
+  "name": "tabbed-content-entry",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:50.031Z",
+  "updated_at": "2024-05-09T15:12:50.031Z",
+  "id": 5774625,
+  "schema": {
+    "image": {
+      "type": "asset",
+      "filetypes": [
+        "images"
+      ],
+      "pos": 0,
+      "translatable": true
+    },
+    "headline": {
+      "type": "text",
+      "max_length": 50,
+      "pos": 1,
+      "translatable": true
+    },
+    "description": {
+      "type": "textarea",
+      "pos": 2,
+      "translatable": true
+    },
+    "button": {
+      "type": "bloks",
+      "pos": 3,
+      "maximum": 1,
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "button"
+      ]
+    }
+  },
+  "image": null,
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [],
+  "preset_id": null,
+  "real_name": "tabbed-content-entry",
+  "component_group_uuid": "1be9ae66-afc2-4c29-a165-5699c15094a1",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-2"
+}

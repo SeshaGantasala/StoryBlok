@@ -1,0 +1,135 @@
+{
+  "name": "text-section",
+  "display_name": null,
+  "created_at": "2024-05-09T15:12:49.840Z",
+  "updated_at": "2024-05-09T15:12:49.840Z",
+  "id": 5774619,
+  "schema": {
+    "alignment": {
+      "type": "option",
+      "options": [
+        {
+          "name": "Left",
+          "value": "left"
+        },
+        {
+          "value": "center",
+          "name": "Center"
+        }
+      ],
+      "exclude_empty_option": true,
+      "default_value": "center",
+      "pos": 0
+    },
+    "single_color_background": {
+      "type": "boolean",
+      "pos": 1
+    },
+    "background_color": {
+      "type": "option",
+      "source": "internal",
+      "datasource_slug": "background-colors",
+      "exclude_empty_option": true,
+      "default_value": "white",
+      "pos": 2
+    },
+    "overlap_preceding_hero": {
+      "type": "boolean",
+      "pos": 3,
+      "description": "Only works if the single color background option is not enabled."
+    },
+    "headline": {
+      "type": "text",
+      "pos": 4,
+      "translatable": true
+    },
+    "lead": {
+      "type": "textarea",
+      "pos": 5,
+      "description": "",
+      "translatable": true
+    },
+    "text": {
+      "type": "richtext",
+      "customize_toolbar": true,
+      "toolbar": [
+        "bold",
+        "italic",
+        "list",
+        "olist",
+        "link",
+        "emoji",
+        "color",
+        "superscript",
+        "subscript",
+        "quote",
+        "highlight",
+        "blok"
+      ],
+      "pos": 6,
+      "translatable": true,
+      "restrict_type": "groups",
+      "restrict_components": true,
+      "component_group_whitelist": [
+        "d6506cb4-83a6-4cfb-9054-2cf161a2aaf3"
+      ]
+    },
+    "button": {
+      "type": "bloks",
+      "default_value": "",
+      "maximum": 1,
+      "restrict_type": "",
+      "restrict_components": true,
+      "component_whitelist": [
+        "button"
+      ],
+      "pos": 7,
+      "component_group_whitelist": []
+    },
+    "tab-d8c6b3bd-d5b4-413d-ba3a-0fe8d594b135": {
+      "display_name": "Style",
+      "keys": [
+        "background_color",
+        "alignment",
+        "overlap_preceding_hero",
+        "single_color_background"
+      ],
+      "pos": 8,
+      "type": "tab"
+    }
+  },
+  "image": "//a.storyblok.com/f/172000/x/f8127ce42d/banner-reference.png",
+  "preview_field": "headline",
+  "is_root": false,
+  "preview_tmpl": null,
+  "is_nestable": true,
+  "all_presets": [
+    {
+      "id": 2159469,
+      "name": "We don't know what we don't know",
+      "component_id": 5774619,
+      "image": "",
+      "icon": "",
+      "color": "",
+      "description": ""
+    },
+    {
+      "id": 2159470,
+      "name": "We don't know what we don't know.",
+      "component_id": 5774619,
+      "image": "",
+      "icon": null,
+      "color": null,
+      "description": null
+    }
+  ],
+  "preset_id": null,
+  "real_name": "text-section",
+  "component_group_uuid": "25bd5845-06f6-4a5f-bb46-4682b1f00f22",
+  "color": "#00b3b0",
+  "icon": null,
+  "internal_tags_list": [],
+  "internal_tag_ids": [],
+  "content_type_asset_preview": null,
+  "component_group_name": "level-1"
+}
